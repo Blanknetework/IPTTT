@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "u9zHG3ZzUx0=",
+  "dgSpecHash": "6QGSKKuT4mM=",
   "success": true,
   "projectFilePath": "C:\\Users\\My PC\\source\\repos\\IPTTT\\IPTTT\\IPTTT.vbproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\My PC\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.10\\system.configuration.configurationmanager.9.0.10.nupkg.sha512",
+    "C:\\Users\\My PC\\.nuget\\packages\\system.data.oledb\\9.0.10\\system.data.oledb.9.0.10.nupkg.sha512",
+    "C:\\Users\\My PC\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.10\\system.diagnostics.eventlog.9.0.10.nupkg.sha512",
+    "C:\\Users\\My PC\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.10\\system.diagnostics.performancecounter.9.0.10.nupkg.sha512",
+    "C:\\Users\\My PC\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.10\\system.security.cryptography.protecteddata.9.0.10.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -34,12 +34,14 @@ Partial Class Form1
         IterationToolStripMenuItem = New ToolStripMenuItem()
         SumOfFirstLastNumbersToolStripMenuItem = New ToolStripMenuItem()
         NicknameRepeaterToolStripMenuItem = New ToolStripMenuItem()
+        ViewHistoryToolStripMenuItemToolStripMenuItem = New ToolStripMenuItem()
+        ClearHistoryToolStripMenuItemToolStripMenuItem = New ToolStripMenuItem()
         MS.SuspendLayout()
         SuspendLayout()
         ' 
         ' MS
         ' 
-        MS.Items.AddRange(New ToolStripItem() {ArithmeticToolStripMenuItem, SelectionToolStripMenuItem, IterationToolStripMenuItem})
+        MS.Items.AddRange(New ToolStripItem() {ArithmeticToolStripMenuItem, SelectionToolStripMenuItem, IterationToolStripMenuItem, ViewHistoryToolStripMenuItemToolStripMenuItem, ClearHistoryToolStripMenuItemToolStripMenuItem})
         MS.Location = New Point(0, 0)
         MS.Name = "MS"
         MS.Size = New Size(800, 24)
@@ -89,13 +91,13 @@ Partial Class Form1
         ' InputNumbersToolStripMenuItem
         ' 
         InputNumbersToolStripMenuItem.Name = "InputNumbersToolStripMenuItem"
-        InputNumbersToolStripMenuItem.Size = New Size(180, 22)
+        InputNumbersToolStripMenuItem.Size = New Size(175, 22)
         InputNumbersToolStripMenuItem.Text = "10 Input Numbers"
         ' 
         ' GradesAverageToolStripMenuItem
         ' 
         GradesAverageToolStripMenuItem.Name = "GradesAverageToolStripMenuItem"
-        GradesAverageToolStripMenuItem.Size = New Size(180, 22)
+        GradesAverageToolStripMenuItem.Size = New Size(175, 22)
         GradesAverageToolStripMenuItem.Text = "3 Grades Average"
         ' 
         ' IterationToolStripMenuItem
@@ -117,6 +119,20 @@ Partial Class Form1
         NicknameRepeaterToolStripMenuItem.Name = "NicknameRepeaterToolStripMenuItem"
         NicknameRepeaterToolStripMenuItem.Size = New Size(235, 22)
         NicknameRepeaterToolStripMenuItem.Text = "Input Number and Nickname"
+        ' 
+        ' ViewHistoryToolStripMenuItemToolStripMenuItem
+        ' 
+        ViewHistoryToolStripMenuItemToolStripMenuItem.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ViewHistoryToolStripMenuItemToolStripMenuItem.Name = "ViewHistoryToolStripMenuItemToolStripMenuItem"
+        ViewHistoryToolStripMenuItemToolStripMenuItem.Size = New Size(90, 20)
+        ViewHistoryToolStripMenuItemToolStripMenuItem.Text = "View History"
+        ' 
+        ' ClearHistoryToolStripMenuItemToolStripMenuItem
+        ' 
+        ClearHistoryToolStripMenuItemToolStripMenuItem.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ClearHistoryToolStripMenuItemToolStripMenuItem.Name = "ClearHistoryToolStripMenuItemToolStripMenuItem"
+        ClearHistoryToolStripMenuItemToolStripMenuItem.Size = New Size(90, 20)
+        ClearHistoryToolStripMenuItemToolStripMenuItem.Text = "Clear History"
         ' 
         ' Form1
         ' 
@@ -145,5 +161,7 @@ Partial Class Form1
     Friend WithEvents GradesAverageToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SumOfFirstLastNumbersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NicknameRepeaterToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ViewHistoryToolStripMenuItemToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ClearHistoryToolStripMenuItemToolStripMenuItem As ToolStripMenuItem
 
 End Class
